@@ -1,0 +1,26 @@
+.sidebar {
+  flex: 0.15;
+  /* width: 240px; */
+  background-color: #fdfdfd;
+}
+
+.section-title {
+  padding: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #757575;
+  text-transform: uppercase;
+}
+
+.list-item {
+  padding-left: 32px;
+}
+
+.list-item .MuiListItemIcon-root {
+  color: #757575;
+}
+
+.list-item .MuiListItemText-primary {
+  font-size: 14px;
+  margin-left: -1.2rem;
+}

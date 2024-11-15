@@ -1,0 +1,7 @@
+.home{
+    flex: 0.85;
+    padding: 0 1rem;
+}
+.widgets{
+    display: flex;
+}

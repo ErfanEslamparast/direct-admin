@@ -1,0 +1,57 @@
+.WidgetLg-container{
+    flex: 3;
+    margin-left: 1.5rem;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.4);
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.widgetLg .widgetLg-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    list-style: none;
+    font-weight: 600;
+}
+.widgetLg .widgetLg-header:first-child{
+    margin-right: -5rem;
+}
+.widgetLg .widgetLg-body li{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 1rem;  
+}
+.widgetLg-header .date{ transform: translateX(5.5rem) }
+
+.widgetLg-header .amount{ transform: translateX(1rem) }
+
+.widgetLg-header .status{ transform: translateX(-4.3rem) }
+
+.widgetLg .userInfo{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.widgetLg .widgetLg-body .widgetLg-item .userInfo img{
+    margin-right: 1rem;
+}
+.widgetLg-body .widgetLg-item .status{
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+}
+.widgetLg-body .widgetLg-item .status.Aprroved{
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+.widgetLg-body .widgetLg-item .status.Declined{
+    color: #d95087;
+    background-color: #fff0f1;
+}
+.widgetLg-body .widgetLg-item .status.Pending{
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}
+

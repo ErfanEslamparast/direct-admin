@@ -1,0 +1,38 @@
+.features{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    height: 13rem;
+    margin-top: 2rem;
+}
+.feature-item{
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    width: 30%;
+    padding: 1.3rem;
+}
+.feature-status{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.feature-status p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.feature-status span{
+    font-size: 1.2rem;
+    margin-left:  1.1rem;
+}
+.feature-icon{
+    color: green;
+    font-size: 1.2rem !important;
+    margin-left: 0.2rem;
+}
+.feature-icon.negative{
+    color: red;
+}
+.feature-caption{
+    font-size: 0.9rem;
+    color: #777;
+}

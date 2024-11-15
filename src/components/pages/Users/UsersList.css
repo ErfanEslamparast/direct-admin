@@ -1,0 +1,35 @@
+.usersList{
+    flex: 0.85;
+    padding: 0 1rem;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+.userInfo img{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.actions .userEditBtn{
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 20%;
+    background-color: rgb(18, 150, 18);
+    font-size: 0.8rem;
+    color: #eee;
+    cursor: pointer;
+}
+.actions .removeBtn{
+    color: red;
+    cursor: pointer;
+}

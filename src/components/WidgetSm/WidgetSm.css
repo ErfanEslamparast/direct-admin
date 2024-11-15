@@ -1,0 +1,44 @@
+.WidgetSm-container{
+    flex: 1;
+    padding: 1rem;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+}
+.WidgetSm-container ul{
+    list-style: none;
+    margin-left: .8rem;
+}
+.widget-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    text-align: center;
+}
+.user-image{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.username{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.user-skill{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.widget-item button{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.widget-item button>*{
+    font-size: 1.2rem;
+}
