@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/direct-admin/static/css/main.86dc8f76.css",
-    "main.js": "/direct-admin/static/js/main.80592076.js",
+    "main.js": "/direct-admin/static/js/main.52c4d277.js",
     "index.html": "/direct-admin/index.html",
     "main.86dc8f76.css.map": "/direct-admin/static/css/main.86dc8f76.css.map",
-    "main.80592076.js.map": "/direct-admin/static/js/main.80592076.js.map"
+    "main.52c4d277.js.map": "/direct-admin/static/js/main.52c4d277.js.map"
   },
   "entrypoints": [
     "static/css/main.86dc8f76.css",
-    "static/js/main.80592076.js"
+    "static/js/main.52c4d277.js"
   ]
 }
