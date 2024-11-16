@@ -5,11 +5,11 @@ import Products from "./components/pages/Products/Products";
 import Product from "./components/pages/Products/Product/Product";
 
 let routes = [
-    {path:'/direct-admin' ,element:<Home/>},
-    {path:'direct-admin/users' ,element:<UsersList/>},
-    {path:'direct-admin/newuser' ,element:<NewUser/>},
-    {path:'direct-admin/products' ,element:<Products/>},
-    {path:'direct-admin/product/:id' ,element:<Product/>}
+    {path:'/direct-admin/' ,element:<Home/>},
+    {path:'/direct-admin/users' ,element:<UsersList/>},
+    {path:'/direct-admin/newuser' ,element:<NewUser/>},
+    {path:'/direct-admin/products' ,element:<Products/>},
+    {path:'/direct-admin/product/:id' ,element:<Product/>}
 ];
 
 export default routes;
