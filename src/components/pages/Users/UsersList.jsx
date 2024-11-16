@@ -50,7 +50,7 @@ const UsersList = () => {
             renderCell: params =>{
                 return(
                     < div className='actions'>
-                    <Link to={`user/${params.row.id}`}><button className='userEditBtn'>Edit</button></Link>
+                    <Link to={`/direct-admin/user/${params.row.id}`}><button className='userEditBtn'>Edit</button></Link>
                     <DeleteOutlineIcon className='removeBtn' onClick={()=>userRemover(params.row.id)}/>
                     </div>
                 )

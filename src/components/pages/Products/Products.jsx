@@ -21,7 +21,7 @@ const Products = () => {
           width: 200,
           renderCell : (params) => {
                 return(
-                       <Link to={`/product/${params.row.id}`}>
+                       <Link to={`/direct-admin/product/${params.row.id}`}>
                     <div className="productInfo">
                        <img className='productImage' src={params.row.avatar} alt={params.row.username}/>
                        <span>{params.row.title}</span>
@@ -42,7 +42,7 @@ const Products = () => {
             renderCell: params =>{
                 return(
                     < div className='actions'>
-                    <Link to={`/product/${params.row.id}`}><button className='productEditBtn'>Edit</button></Link>
+                    <Link to={`/direct-admin/product/${params.row.id}`}><button className='productEditBtn'>Edit</button></Link>
                     <DeleteOutlineIcon className='removeBtn' onClick={()=>productRemover(params.row.id)}/>
                     </div>
                 )

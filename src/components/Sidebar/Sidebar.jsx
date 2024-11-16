@@ -24,7 +24,7 @@ const Sidebar = () => {
         <List>
           <div className="section-title">Dashboard</div>
 
-          <Link to={'/'}>
+          <Link to={'/direct-admin/'}>
           <ListItem button  className="list-item">
             <ListItemIcon>
               <DashboardIcon />
@@ -47,7 +47,7 @@ const Sidebar = () => {
   
           <div className="section-title">Quick Menu</div>
           
-          <Link to={'/users'}>
+          <Link to={'/direct-admin/users'}>
           <ListItem button className="list-item">
             <ListItemIcon>
               <PeopleIcon />
@@ -56,7 +56,7 @@ const Sidebar = () => {
           </ListItem>
 
           </Link>
-          <Link to={'/newuser'}>
+          <Link to={'/direct-admin/newuser'}>
           <ListItem button  className="list-item">
             <ListItemIcon>
               <PersonAddIcon />
@@ -65,7 +65,7 @@ const Sidebar = () => {
           </ListItem>
           </Link>
 
-          <Link to={'/products'}>
+          <Link to={'/direct-admin/products'}>
           <ListItem button  className="list-item">
             <ListItemIcon>
               <StoreIcon />
